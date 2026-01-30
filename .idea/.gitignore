@@ -6,7 +6,8 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-/lesson01/.claude
-/lesson01//lesson01.txt
+lesson01/.claude
+lesson01/lesson01.txt
+.idea/
 
 
