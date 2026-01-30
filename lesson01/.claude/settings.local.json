@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python backward.py:*)",
-      "Bash(python mnist_nn.py:*)"
-    ]
-  }
-}
