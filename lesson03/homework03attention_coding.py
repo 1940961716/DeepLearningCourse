@@ -18,7 +18,7 @@ def scaled_dot_product_attention(Q, K, V, mask=None):
     # 4.计算softmax
     attention_weights = softmax(scaled_attention_logits)
     # 5.加权求和
-    output = np.matmul(attention_weights, V)  # (batch_size, seq_len
+    output = np.matmul(attention_weights, V)  # (batch_size, seq_len_q, d_v)
     return output, attention_weights
 
 
